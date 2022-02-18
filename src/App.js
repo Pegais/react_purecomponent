@@ -12,7 +12,7 @@ export default function App() {
     <div>
       <h1>Hello StackBlitz!</h1>
       <h3><button onClick={()=>setCount(count+1)}>+</button>{count}</h3>
-      <Test prop={count} />
+      <Test  />
     </div>
   );
 }
